@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventos>
+    <evento>
+        <fecha>2025-02-10</fecha>
+        <titulo>Torneo Juvenil</titulo>
+        <descripcion>Competición para jugadores jóvenes del club.</descripcion>
+    </evento>
+
+    <evento>
+        <fecha>2025-03-01</fecha>
+        <titulo>Clínic de Pádel</titulo>
+        <descripcion>Sesión especial con entrenadores invitados.</descripcion>
+    </evento>
+
+    <evento>
+        <fecha>2025-03-15</fecha>
+        <titulo>Curso Intensivo de Tenis</titulo>
+        <descripcion>Entrenamiento avanzado para adultos.</descripcion>
+    </evento>
+
+    <evento>
+        <fecha>2025-04-05</fecha>
+        <titulo>Día Familiar</titulo>
+        <descripcion>Jornadas deportivas y actividades recreativas.</descripcion>
+    </evento>
+
+    <evento>
+        <fecha>2025-04-20</fecha>
+        <titulo>Exhibición de Profesionales</titulo>
+        <descripcion>Partido especial con jugadores destacados.</descripcion>
+    </evento>
+</eventos>

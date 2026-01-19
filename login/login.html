@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ======= MENÚ SUPERIOR ======= -->
+
+    <header>
+        <nav class="navbar">
+                <div class="logo"><a href="../inicio/inicio.html"><img src="Pictures/logo.webp"></a></div>            <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="../actividades/actividades.html">Actividades Deportivas</a></li>
+                <li><a href="../noticias/noticias.html">Noticias</a></li>
+                <li><a href="../contacto/contacto.html">Contacto</a></li>
+                <li><a href="../login/login.html" class="btn-socios">Área de Socios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======= LOGIN SECTION ======= -->
+
+    <section class="login-section">
+        <form class="login-form">
+            <h2>Acceso socios</h2>
+
+            <label for="user">Usuario</label>
+            <input type="text" placeholder="Número de socio" required>
+
+            <label for="user">Clave</label>
+            <input type="text" placeholder="Clave" required>
+
+            <button type="submit">Acceder</button>
+
+            <p class="register-link">
+                ¿No eres socio del club? <a href="../contacto/contacto.html">Únete a nosotros</a>
+            </p>
+        </form>
+    </section>
+
+
+    <!-- ======= FOOTER ======= -->
+
+    <footer>
+        <div class="footer-section">
+            <h1>NUESTRO CLUB</h1>
+            <p><strong>Dirección: </strong>Hoyo del Verdugo, 7, 38770 Tazacorte, La Palma</p>
+            <p><strong>Teléfono: </strong>922 00 00 00 <strong>   e-Mail: </strong>.......................@..........com</p>
+        </div>
+        <div class="footer-section">
+        <h1>HORARIO</h1>
+            <p><strong>Lunes a Viernes: </strong>07:30 - 22:30 <strong>  Sábados: </strong>08:00 - 22:30</p>
+            <p><strong>Domingos y festivos: </strong>09:00 - 20:30 <strong>  Oficina: </strong>16:00 - 19:30</p>
+        </div>
+    </footer>
+
+    <section class="end">
+        <p>Club de Tenis Valle de Aridane 2019 © todos los derechos reservados · <a 
+            href="legal.html"> Aviso Legal y Protección de Datos</a> · <a href="cookies.html"> Declaración de cookies</a></p>
+    </section>
+
+    <!-- Archivo JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
